@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Montserrat", serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.nav1 {
+    margin: 44px 0px 0px 76px;
+}
+
+.link1 {
+    font-size: 24px;
+    font-weight: 600px;
+    line-height: 30px;
+    color: #989D9C;
+    cursor: pointer;
+    margin-right: 24px;
+
+}
+
+.botao1 {
+    color: white;
+    background: #665AE1;
+    width: 130px;
+    height: 41px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 600px;
+    font-size: 24px;
+    line-height: 29.26px;
+    cursor: pointer
+}
+
+img {
+    margin-top: 200px;
+    margin-left: 125px;
+    width: 568px;
+    height: 500px;
+    display: inline-block;
+}
+
+.oioi {
+    display: inline-block;
+    margin-left: 100px;
+
+}
+
+h1 {
+    width: 513px;
+    font-weight: 900px;
+    font-size: 100px;
+    color: #515151;
+    line-height: 121.9px;
+}
+
+h2 {
+    font-size: 58px;
+    font-weight: 500px;
+    line-height: 70.7px;
+    color: #515151;
+
+}
+
+p {
+    color: #848484;
+    font-size: 24px;
+    font-weight: 400px;
+    line-height: 29.26px;
+    width: 515px;
+}
+
+.botao2 {
+    background: #ADFF00;
+    color: black;
+    font-size: 28px;
+    font-weight: 700px;
+    line-height: 34.13px;
+    width: 239px;
+    height: 64px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20.5px;
+    
+
+}
