@@ -1,140 +1,112 @@
-@import url('https://fonts.googleapis.com/css2?family=Jacquard+24&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: "Big Shoulders", sans-serif;
 }
 
-img {
-    width: 160px;
-    margin: 60px 0px 0px 60px;
-    display: inline-block;
-}
-
-
-.navegaçao {
-    display: inline-block;
-    color: green;
-    cursor: pointer;
-    position: relative;
-    left: 400px;
-    bottom: 40px;
-    font-size: 40px;
-    font-family: "Jacquard 24", serif;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2024/05/28/istock-1500141300-1iv4aeazj5her.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    backdrop-filter: blur(5px);
 
 }
 
-.botao1 {
+.container {
+    margin: 0px 14px 0px 14px;
+    width: 590px;
+    height: 500px;
+    background-color: blanchedalmond;
     border: none;
-    cursor: pointer;
-    background: #D3D3D3;
-    color: #006400;
-    font-size: 30px;
-    font-weight: 400px;
-    width: 160px;
-    height: 60px;
-    border-radius: 50px;
-    margin-left: 150px;
-    font-family: "Libre Baskerville", serif;
+    border-radius: 32px;
+    padding: 30px 40px;
+    box-shadow: 5px 10px 18px;
     position: relative;
-    bottom: 45px;
-}
+    display: flex;
+    flex-direction: column;
 
-.link1 {
-    margin-right: 246px;
-    position: relative;
-    bottom: 45px;
-}
-
-.link1:active {
-    color: red;
-}
-
-.link1:hover {
-    opacity: 0.6;
-}
-
-.botao1:active {
-    background: #006400;
-    color: whitesmoke
-}
-
-.botao1:hover {
-    opacity: 0.7;
-}
-
-.back-cinza {
-    background: black;
-}
-
-
-.main1 {
-    font-family: "Libre Baskerville", serif;
-    display: inline-block;
-    position: relative;
-    top: 1px;
-    left: 200px;
 }
 
 h1 {
-    font-size: 80px;
-    font-style: italic;
-    font-weight: 900px;
-}
-
-h2 {
-    font-size: 60px;
-    font-style: italic;
-    font-weight: 900px;
-}
-
-p {
-    font-size: 26px;
-    font-weight: 900px;
-    background-color: green;
-    color: #D3D3D3;
-    width: 1000px;
-    height: 38px;
     text-align: center;
-    border-radius: 10px;
+    font-size: 40px;
+}
+
+.caixa-email {
+    border-color: #D3D3D3;
+    border-radius: 12px;
+    height: 42px;
+    width: 500px;
+    margin-top: 50px;
+
+}
+
+.caixa-senha {
+    border-color: #D3D3D3;
+    border-radius: 12px;
+    height: 42px;
+    width: 500px;
+    margin-top: 50px;
+
+}
+
+.lembrar-senha {
+    padding: 18px 0px;
+    font-size: 23px;
+}
+
+input {
+    outline: none;
+}
+
+input::placeholder {
+    color: #A9A9A9;
+    font-size: 18px;
     position: relative;
-    top: 100px;
-
-
+    left: 190px;
+    top: 6px;
+    letter-spacing: 2px;
 }
 
-.span-verde {
-
-    color: #006400;
-}
-
-.link2 {
-
-    color: #006400;
+button {
+    font-family: "Libre Baskerville", serif;
+    border: none;
+    color: black;
+    background: #A0522D;
     cursor: pointer;
-    font-weight: 900px;
-    font-size: 27px;
+    box-shadow: 2px 2px 3px;
+    border-radius: 18px;
+    height: 54px;
+    width: 200px;
+    font-size: 25px;
+    text-align: center;
     position: relative;
-    top: 30px;
-    left: 1100px;
-}
-
-.link2:active {
-
-    color: red;
+    left: 150px;
+    top: 28px;
 
 }
 
-.link2:hover {
-    opacity: 0.8;
-}
-
-.img2 {
-    display: inline-block;
-    width: 700px;
+.registro {
+    font-family: "Libre Baskerville", serif;
+    font-size: 20px;
     position: relative;
-    left: 500px;
-    top: 100px;
+    top: 90px;
+    left: 300px;
+
+}
+
+.cadastro {
+    position: relative;
+    top: 66px;
+    left: 450px;
+    font-size: 19px;
 }
